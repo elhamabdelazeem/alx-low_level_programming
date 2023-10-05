@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(void)
 /**
- * main - Entry point
- * Description:"using puts function"
+ * main - this is a descreption
  * @parameter: describe the parameter
  * Return: Always 0 (Success)
  */
