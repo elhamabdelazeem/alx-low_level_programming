@@ -1,12 +1,9 @@
 #include<stdio.h>
 int main(void)
-	
 /**
  * main - Entry point
- * 
- * Description: 'hello puts'
+ * Description:"using puts function"
  * @parameter: describe the parameter
- * 
  * Return: Always 0 (Success)
  */
 
