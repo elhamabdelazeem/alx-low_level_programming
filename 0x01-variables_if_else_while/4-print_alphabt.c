@@ -6,10 +6,11 @@
 int main(void)
 {char ch;
 for (ch = 97; ch < 123; ch++)
-{if (ch == 101)
+{
+if (ch == 101)
 continue;
 else if (ch == 113)
 continue;
-putchar(ch);}
+putchar(ch); }
 putchar('\n');
 return (0); }
