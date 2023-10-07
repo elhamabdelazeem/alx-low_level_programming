@@ -4,7 +4,8 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/** main - positive_or_negative
+/** 
+ * main_function - positive_or_negative
  * Return: Description of the returned value
  */
 int main(void)
