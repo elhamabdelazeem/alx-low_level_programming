@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/** 
- * main_function - positive_or_negative
- * Return: Description of the returned value
+/**
+ * main - printing positive or negative
+ * Return: Always 0 (Success)
  */
 int main(void)
 {int n;
