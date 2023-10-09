@@ -4,8 +4,7 @@
   *Return: always 0 (success)
   */
 int main(void)
-{int n1, n2, n3;
-loop();
+{int loop();
 putchar('\n');
 return (0); }
 int loop()
