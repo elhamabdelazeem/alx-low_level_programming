@@ -6,6 +6,7 @@
  * Return: always 1 (success)
  */
 int _islower(int c)
-{int i = 1;
-if ((c >= 97) || (c <= 122))
-return (i); }
+{if ((c >= 97) || (c <= 122))
+{
+return (1); }
+return (0); }
