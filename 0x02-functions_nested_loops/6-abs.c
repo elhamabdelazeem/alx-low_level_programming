@@ -2,9 +2,10 @@
 #include <stdlib.h>
 /**
  * _abs - computes the absolute value of an integer
+ * @n: operand
  */
-int _abs(int)
-{int absolute, n;
+int _abs(int n)
+{int absolute;
 if (n > 0)
 {
 absolute = 1* n;
