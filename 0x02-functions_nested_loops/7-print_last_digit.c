@@ -6,17 +6,17 @@
  * Return: last digit
  */
 int print_last_digit(int n)
-{int reminder;
+{int R;
 if (n >= 0)
 {
-reminder = n % 10;
-_putchar('reminder');
-return (reminder);
+R = n % 10;
+_putchar('R');
+return (R);
 }
 else if (n < 0)
 {
-reminder = (-1 * n) % 10;
-_putchar('reminder');
-return (reminder);
+R = (-1 * n) % 10;
+_putchar('R');
+return (R);
 }
 return (0); }
