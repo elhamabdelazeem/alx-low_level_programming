@@ -18,4 +18,5 @@ else if (n < 0)
 reminder = (-1 * n) % 10;
 _putchar(reminder);
 return (reminder);
-}}
+}
+return (0); }
