@@ -11,14 +11,13 @@ for (j = 0; j <= 9; j++)
 {
 R = i * j;
 if (R > 10)
-{{_putchar((R / 10) + '0');
+{_putchar((R / 10) + '0');
 _putchar((R % 10) + '0');
 _putchar(',');
 _putchar(' '); }
-_putchar('\n'); }
-else if (R <10)
-{{_putchar((R % 10) + '0');
+else if (R < 10)
+{_putchar((R % 10) + '0');
 _putchar(',');
 _putchar(' '); }
 _putchar('\n'); }
-}}}
+}}
