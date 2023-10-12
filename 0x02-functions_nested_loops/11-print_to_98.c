@@ -5,35 +5,22 @@
  * @n: operand
  */
 void print_to_98(int n)
-{int i;
-if (n > 0)
 {
-for (i = n; ((i <= 98) || (i >= 98)); i--)
+if (n >= 98)
 {
-if (i >= 10)
-{_putchar((i / 10) + '0');
-_putchar((i % 10) + '0'); }
-else if (i < 10)
-{_putchar((i % 10) + '0'); }
-else if (i == 98)
-break;
+for (; n >= 98; n--)
+{if (n == 98)
+{_putchar((n / 10) + (n % 10) + '0');
+_putchar('\n');
+break;}
+else if 
+{_putchar((n / 10) + (n % 10) + '0');
 _putchar(',');
-_putchar(' '); }
-}
-if (n < 0)
+_putchar(' ');}}}
+else if (n < 98)
 {
-for (i = n; i <= 98; i++)
-{
-if ((i >= 10) || (i <= -10))
-{_putchar((i / 10) + '0');
-_putchar((i % 10) + '0'); }
-else if ((i > -10) || (i < 10))
-{_putchar((i % 10) + '0'); }
-else if (i == 98)
-break;
+for (; n < 98; n++)
+{_putchar((n / 10) + (n % 10) + '0');
 _putchar(',');
-_putchar(' '); }
-}
-_putchar('\n'); }
-
+_putchar(' ');}}}
 
