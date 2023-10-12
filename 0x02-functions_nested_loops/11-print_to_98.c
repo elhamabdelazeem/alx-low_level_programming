@@ -19,13 +19,7 @@ else if (n < 98)
 printf("%d, ", n); }}
 if (n >= 98)
 {
-for (; n >= 98; n--)
+for (; n > 98; n--)
 {
-if (n == 98)
-{_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-_putchar('\n');
-break; }
-else if (n > 98)
-{printf("%d, ", n); }}}}
+printf("%d, ", n); }}}
 
