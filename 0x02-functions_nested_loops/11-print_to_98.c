@@ -13,7 +13,7 @@ for (; n >= 98; n--)
 {_putchar((n / 10) + (n % 10) + '0');
 _putchar('\n');
 break;}
-else if 
+else if (n > 98) 
 {_putchar((n / 10) + (n % 10) + '0');
 _putchar(',');
 _putchar(' ');}}}
