@@ -1,10 +1,16 @@
 #include "main.h"
 #include<unistd.h>
 #include<stdio.h>
+/**
+ * mul - multiplies two integers
+ * @a: first operand
+ * @b: second operand
+ * Return: result of muliplication
+ */
 int mul(int a, int b)
-{int mul;
-mul = a * b;
-_putchar((mul / 10) + '0');
-_putchar((mul % 10) + '0');
-return (mul);
+{int multi;
+multi = a * b;
+_putchar((multi / 10) + '0');
+_putchar((multi % 10) + '0');
+return (multi);
 }
