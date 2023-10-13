@@ -1,13 +1,10 @@
 #include "main.h"
-#include<unistd.h>
 
- /**
-  * print_square -  prints a square
-  * @size: operand size of square
-  * Description: Can only use _putchar to print. Use '#' to print square
-  * Return: void
-  */
-
+/**
+ * print_square - print a square
+ * @size: size of square
+ * Description: Can only use _putchar to print. Use '#' to print square.
+ */
 void print_square(int size)
 {int i, j;
 if (size <= 0)
