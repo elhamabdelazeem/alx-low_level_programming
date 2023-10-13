@@ -1,10 +1,11 @@
-#include "main.h"
+ #include "main.h"
+  #include <stdio.h>
 
-/**
- * print_triangle -  prints a triangle
- * @size: is the size of the triangle
- * Return: void
- */
+  /**
+  * print_triangle - print triangle, followed by a new line . 
+  * but for multiple of three prints fizz instead of the number 
+  * @size: size of the triangle
+  */
 void print_triangle(int size)
 {int i, j;
 for (i = 1; i <= size; i++)
