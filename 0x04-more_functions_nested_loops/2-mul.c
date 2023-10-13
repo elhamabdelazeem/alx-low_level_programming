@@ -8,9 +8,7 @@
  * Return: result of muliplication
  */
 int mul(int a, int b)
-{int multi;
-multi = a * b;
-_putchar((multi / 10) + '0');
-_putchar((multi % 10) + '0');
-return (multi);
+{int res;
+res = a * b;
+return (res);
 }
