@@ -1,24 +1,27 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_triangle - print triangle, followed by a new line . 
- * but for multiple of three prints fizz instead of the number 
- * @size: size of the triangle
- */
+*print_triangle - prints a triangle
+*@size:size parameter of triangle
+*Return:returns nothing
+*/
 void print_triangle(int size)
-{int i, j;
-if (size <= 0) 
 {
-_putchar('\n') 
-} 
-for (i = 1; i <= size; i++)
+int inc1, inc2;
+
+if (size > 0)
 {
-for (j = 1; j <= i; j++)
+for (inc1 = 1; inc1 <= size; inc1++)
 {
+for ((inc2 = size - inc1); inc2 > 0; inc2--)
+_putchar(' ');
+
+for (inc2 = 0; inc2 < inc1; inc2++)
 _putchar('#');
-}
+
+if (inc1 == size)
+continue;
 _putchar('\n');
 }
-return (0);
+}
+_putchar('\n');
 }
