@@ -10,12 +10,12 @@ for (i = 0; str[i] != 0; i++)
 	;
 if (i % 2 == 1)
 {n = (i - 1) / 2;
-for (j = n; str[j] != '\0'; j++)
- _putchar(str[j]);
+for (j = n; j <= i; j++)
+_putchar(str[j]);
 }
 else if (i % 2 == 0)
 {n = i / 2;
-for (j = n; str[j] != '\0'; j++)
+for (j = n; j <= i; j++)
 _putchar(str[j]);
 }
 _putchar('\n');
