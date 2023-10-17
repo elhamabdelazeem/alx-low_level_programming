@@ -5,19 +5,15 @@
  * Return: void
  */
 void puts_half(char *str)
-{ int i, n, j;
+{int i, mid;
 for (i = 0; str[i] != 0; i++)
 	;
+mid = i / 2;
 if (i % 2 == 1)
-{n = (i - 1) / 2;
-for (j = n; j <= i; j++)
-_putchar(str[j]);
-}
-else if (i % 2 == 0)
-{n = i / 2;
-for (j = n; j <= i; j++)
-_putchar(str[j]);
+while (mid < i)
+{
+_putchar(str[mid]);
+mid ++;
 }
 _putchar('\n');
 }
-
