@@ -21,6 +21,6 @@ if (square == q)
 return (i);
 else if (square < q)
 return (assist(q, (i + 1)));
-else 
+else
 return (-1);
 }
