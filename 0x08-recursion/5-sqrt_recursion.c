@@ -6,7 +6,7 @@
  */
 int _sqrt_recursion(int n)
 {
-return (assist (n, 1));
+return (assist(n, 1));
 }
 /**
  * assist - help function to solve _sqrt_recursion
