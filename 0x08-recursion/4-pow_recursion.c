@@ -16,7 +16,7 @@ else if (y == 1)
 return (x);
 else
 {
-value = x * _pow_recursion(x, (y-1));
+value = x * _pow_recursion(x, (y - 1));
 }
 return (value);
 }
