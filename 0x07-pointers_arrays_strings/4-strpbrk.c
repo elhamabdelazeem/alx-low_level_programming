@@ -18,11 +18,11 @@ j = 0;
 if (accept[j] == s[i])
 {
 p = &s[i];
-return (p);
+p++;
 }
 j++;
 }
 i++;
 }
-return (0);
+return (p);
 }
