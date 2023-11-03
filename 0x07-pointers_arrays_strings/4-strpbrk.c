@@ -19,6 +19,7 @@ if (accept[j] == s[i])
 {
 p = &s[i];
 p++;
+break;
 }
 j++;
 }
